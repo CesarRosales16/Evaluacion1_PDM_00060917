@@ -51,7 +51,7 @@ public class Main2Activity extends AppCompatActivity {
             Intent mIntentShare = new Intent();
             mIntentShare.setType("text/plain");
             mIntentShare.setAction(Intent.ACTION_SEND);
-            String infoToShare = "User: " + mIntent.getStringExtra("nameKey") + "\nEmail: " + mIntent.getStringExtra("emailKey") + "\nTotal de producto: " + mIntent.getStringExtra("totalKey") + "\nCantidad producto 1: " + mIntent.getStringExtra("prod1Key") + "\nCantidad producto 2: " + mIntent.getStringExtra("prod2Key") + "\nCantidad producto 3: " + mIntent.getStringExtra("prod2Key") +
+            String infoToShare = "User: " + mIntent.getStringExtra("nameKey") + "\nEmail: " + mIntent.getStringExtra("emailKey") + "\nTotal de producto: " + mIntent.getStringExtra("totalKey") + "\nCantidad producto 1: " + mIntent.getStringExtra("prod1Key") + "\nCantidad producto 2: " + mIntent.getStringExtra("prod2Key") + "\nCantidad producto 3: " + mIntent.getStringExtra("prod3Key") +
                     "\nCantidad producto 4: " + mIntent.getStringExtra("prod4Key") +
                     "\nCantidad producto 5: " + mIntent.getStringExtra("prod5Key") +
                     "\nCantidad producto 6: " + mIntent.getStringExtra("prod6Key") +
