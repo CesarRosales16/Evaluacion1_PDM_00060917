@@ -89,6 +89,16 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/base_gap"
+        android:gravity="center"
+        android:text="Detalle de producto"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/medium_size" />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,6 +107,7 @@
         android:gravity="center">
 
         <LinearLayout
+            android:id="@+id/prod_1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -113,6 +124,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -122,6 +134,7 @@
 
 
         <LinearLayout
+            android:id="@+id/prod_2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -138,6 +151,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -146,6 +160,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/prod_3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -162,6 +177,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -179,6 +195,7 @@
         android:layout_weight="1">
 
         <LinearLayout
+            android:id="@+id/prod_4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -195,6 +212,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -203,6 +221,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/prod_5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -219,6 +238,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -227,6 +247,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/prod_6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -243,6 +264,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -258,6 +280,7 @@
         android:layout_weight="1">
 
         <LinearLayout
+            android:id="@+id/prod_7"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -274,6 +297,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -282,6 +306,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/prod_8"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -298,6 +323,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -306,6 +332,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/prod_9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -322,6 +349,7 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/cont_prod9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"

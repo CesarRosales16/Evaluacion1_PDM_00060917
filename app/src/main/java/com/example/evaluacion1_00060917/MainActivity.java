@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_prod1, tv_prod2, tv_prod3, tv_prod4, tv_prod5, tv_prod6, tv_prod7, tv_prod8, tv_prod9;
     private EditText user, email;
     private Button btn_send;
-    private ArrayList<Integer> contadores = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,21 +43,9 @@ public class MainActivity extends AppCompatActivity {
         user = findViewById(R.id.et_user);
         email = findViewById(R.id.et_email);
         btn_send = findViewById(R.id.btn_send);
-        contadores.add(contProductos);
-        contadores.add(cont1);
-        contadores.add(cont2);
-        contadores.add(cont3);
-        contadores.add(cont4);
-        contadores.add(cont5);
-        contadores.add(cont6);
-        contadores.add(cont7);
-        contadores.add(cont8);
-        contadores.add(cont9);
-
 
         prod1.setOnClickListener(v -> {
             cont1++;
-            contadores.set(0,(contadores.get(0))+1);
             contProductos++;
             tv_prod1.setText(Integer.toString(cont1));
         });
@@ -106,14 +93,16 @@ public class MainActivity extends AppCompatActivity {
             Intent mIntent = new Intent(MainActivity.this, Main2Activity.class);
             mIntent.putExtra("nameKey", user.getText().toString());
             mIntent.putExtra("emailKey", email.getText().toString());
-            Log.d("xd",contadores.get(0).toString());
-            mIntent.putExtra("totalKey", Integer.toString(contadores.get(0)));
-            mIntent.putExtra("prod1Key", Integer.toString(contadores.get(0)));
-            mIntent.putExtra("prod1Key", Integer.toString(contadores.get(0)));
-            /*mIntent.putExtra(AppConstants.USER_KEY, user);
-            mIntent.putExtra(AppConstants.PASSWORD_KEY, pass);
-            mIntent.putExtra(AppConstants.EMAIL_KEY, email);
-            mIntent.putExtra(AppConstants.GENDER_KEY, gender);*/
+            mIntent.putExtra("totalKey", Integer.toString(contProductos));
+            mIntent.putExtra("prod1Key", Integer.toString(cont1));
+            mIntent.putExtra("prod2Key", Integer.toString(cont2));
+            mIntent.putExtra("prod3Key", Integer.toString(cont3));
+            mIntent.putExtra("prod4Key", Integer.toString(cont4));
+            mIntent.putExtra("prod5Key", Integer.toString(cont5));
+            mIntent.putExtra("prod6Key", Integer.toString(cont6));
+            mIntent.putExtra("prod7Key", Integer.toString(cont7));
+            mIntent.putExtra("prod8Key", Integer.toString(cont8));
+            mIntent.putExtra("prod9Key", Integer.toString(cont9));
             startActivity(mIntent);
         });
     }

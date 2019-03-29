@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
-    private TextView tv_user,tv_email,tv_total;
+    private TextView tv_user,tv_email,tv_total,num_prod1,num_prod2,num_prod3,num_prod4,num_prod5,num_prod6,num_prod7,num_prod8,num_prod9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,14 +14,30 @@ public class Main2Activity extends AppCompatActivity {
         tv_user = findViewById(R.id.tv_usuario);
         tv_email = findViewById(R.id.tv_correo);
         tv_total = findViewById(R.id.tv_total);
+        num_prod1 = findViewById(R.id.cont_prod1);
+        num_prod2 = findViewById(R.id.cont_prod2);
+        num_prod3 = findViewById(R.id.cont_prod3);
+        num_prod4 = findViewById(R.id.cont_prod4);
+        num_prod5 = findViewById(R.id.cont_prod5);
+        num_prod6 = findViewById(R.id.cont_prod6);
+        num_prod7 = findViewById(R.id.cont_prod7);
+        num_prod8 = findViewById(R.id.cont_prod8);
+        num_prod9 = findViewById(R.id.cont_prod9);
         Intent mIntent = getIntent();
         if (mIntent != null) {
             tv_user.setText(mIntent.getStringExtra("nameKey"));
             tv_email.setText(mIntent.getStringExtra("emailKey"));
             tv_total.setText(mIntent.getStringExtra("totalKey"));
-            /*tvPassword.setText(mIntent.getStringExtra(AppConstants.PASSWORD_KEY));
-            tvEmail.setText(mIntent.getStringExtra(AppConstants.EMAIL_KEY));
-            tvGender.setText(mIntent.getStringExtra(AppConstants.GENDER_KEY));*/
+            num_prod1.setText(mIntent.getStringExtra("prod1Key"));
+            num_prod2.setText(mIntent.getStringExtra("prod2Key"));
+            num_prod3.setText(mIntent.getStringExtra("prod3Key"));
+            num_prod4.setText(mIntent.getStringExtra("prod4Key"));
+            num_prod5.setText(mIntent.getStringExtra("prod5Key"));
+            num_prod6.setText(mIntent.getStringExtra("prod6Key"));
+            num_prod7.setText(mIntent.getStringExtra("prod7Key"));
+            num_prod8.setText(mIntent.getStringExtra("prod8Key"));
+            num_prod9.setText(mIntent.getStringExtra("prod9Key"));
+
         }
     }
 }
