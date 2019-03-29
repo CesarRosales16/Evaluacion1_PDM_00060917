@@ -1,9 +1,22 @@
 <resources>
     <string name="app_name">Evaluacion1_00060917</string>
     <string name="text_contador_de_productos">Contador de Productos</string>
-    <string name="text_usuario">Usuario</string>
+    <string name="text_usuario">Usuario:</string>
     <string name="hint_usuario">Escriba el usuario aqui</string>
-    <string name="text_correo_electronio">Correo electronio</string>
+    <string name="text_correo_electronio">Correo electronico:</string>
     <string name="text_btn_enviar">ENVIAR</string>
     <string name="text_btn_share">Share</string>
+    <string name="text_producto_1">Producto 1</string>
+    <string name="text_numeral">#</string>
+    <string name="text_producto_2">Producto 2</string>
+    <string name="text_producto_3">Producto 3</string>
+    <string name="text_producto_4">Producto 4</string>
+    <string name="text_producto_5">Producto 5</string>
+    <string name="text_producto_6">Producto 6</string>
+    <string name="text_producto_7">Producto 7</string>
+    <string name="text_producto_8">Producto 8</string>
+    <string name="text_producto_9">Producto 9</string>
+    <string name="text_factura">Factura</string>
+    <string name="text_total_de_producto">Total de producto:</string>
+    <string name="text_detalle_de_producto">Detalle de producto</string>
 </resources>

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/base_gap"
         android:gravity="center"
-        android:text="Factura"
+        android:text="@string/text_factura"
         android:textColor="@color/color_black"
         android:textSize="@dimen/medium_size" />
 
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/base_gap"
-            android:text="Usuario:"
+            android:text="@string/text_usuario"
             android:textSize="16sp" />
 
         <TextView
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/base_gap"
-            android:text="Correo:"
+            android:text="@string/text_correo_electronio"
             android:textSize="16sp" />
 
         <TextView
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/base_gap"
-            android:text="Total de productos:"
+            android:text="@string/text_total_de_producto"
             android:textSize="16sp" />
 
         <TextView
@@ -94,11 +94,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/base_gap"
         android:gravity="center"
-        android:text="Detalle de producto"
+        android:text="@string/text_detalle_de_producto"
         android:textColor="@color/color_black"
         android:textSize="@dimen/medium_size" />
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -119,17 +117,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 1"
+                android:text="@string/text_producto_1"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
 
@@ -146,17 +145,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 2"
+                android:text="@string/text_producto_2"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -172,17 +172,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 3"
+                android:text="@string/text_producto_3"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
 
@@ -207,17 +208,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 4"
+                android:text="@string/text_producto_4"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -233,17 +235,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 5"
+                android:text="@string/text_producto_5"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -259,17 +262,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 6"
+                android:text="@string/text_producto_6"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
     </LinearLayout>
 
@@ -292,17 +296,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 7"
+                android:text="@string/text_producto_7"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -318,17 +323,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 8"
+                android:text="@string/text_producto_8"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -344,17 +350,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 9"
+                android:text="@string/text_producto_9"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
     </LinearLayout>
 

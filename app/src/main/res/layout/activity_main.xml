@@ -36,17 +36,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 1"
+                android:text="@string/text_producto_1"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
 
@@ -63,17 +64,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 2"
+                android:text="@string/text_producto_2"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,17 +91,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 3"
+                android:text="@string/text_producto_3"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
 
@@ -124,17 +127,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 4"
+                android:text="@string/text_producto_4"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -150,17 +154,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 5"
+                android:text="@string/text_producto_5"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -176,17 +181,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 6"
+                android:text="@string/text_producto_6"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
     </LinearLayout>
 
@@ -209,17 +215,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 7"
+                android:text="@string/text_producto_7"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -235,17 +242,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 8"
+                android:text="@string/text_producto_8"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -261,17 +269,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Producto 9"
+                android:text="@string/text_producto_9"
                 android:textColor="@color/color_white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/small_size" />
 
             <TextView
                 android:id="@+id/cont_prod9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="#"
-                android:textColor="@color/color_white" />
+                android:text="@string/text_numeral"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/medium_size" />
         </LinearLayout>
     </LinearLayout>
 
