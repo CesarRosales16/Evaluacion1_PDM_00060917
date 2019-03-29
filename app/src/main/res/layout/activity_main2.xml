@@ -80,7 +80,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/td_total"
+            android:id="@+id/tv_total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/base_gap"

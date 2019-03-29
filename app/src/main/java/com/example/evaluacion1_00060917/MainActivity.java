@@ -9,12 +9,15 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
-    private int cont1 = 0, cont2 = 0, cont3 = 0, cont4 = 0, cont5 = 0, cont6 = 0, cont7 = 0, cont8 = 0, cont9 = 0, contProductos=0;
+    private int cont1 = 0, cont2 = 0, cont3 = 0, cont4 = 0, cont5 = 0, cont6 = 0, cont7 = 0, cont8 = 0, cont9 = 0, contProductos = 0;
     private LinearLayout prod1, prod2, prod3, prod4, prod5, prod6, prod7, prod8, prod9;
     private TextView tv_prod1, tv_prod2, tv_prod3, tv_prod4, tv_prod5, tv_prod6, tv_prod7, tv_prod8, tv_prod9;
     private EditText user, email;
     private Button btn_send;
+    private ArrayList<Integer> contadores = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +44,21 @@ public class MainActivity extends AppCompatActivity {
         user = findViewById(R.id.et_user);
         email = findViewById(R.id.et_email);
         btn_send = findViewById(R.id.btn_send);
+        contadores.add(contProductos);
+        contadores.add(cont1);
+        contadores.add(cont2);
+        contadores.add(cont3);
+        contadores.add(cont4);
+        contadores.add(cont5);
+        contadores.add(cont6);
+        contadores.add(cont7);
+        contadores.add(cont8);
+        contadores.add(cont9);
 
 
         prod1.setOnClickListener(v -> {
             cont1++;
+            contadores.set(0,(contadores.get(0))+1);
             contProductos++;
             tv_prod1.setText(Integer.toString(cont1));
         });
@@ -90,6 +104,12 @@ public class MainActivity extends AppCompatActivity {
         });
         btn_send.setOnClickListener(v -> {
             Intent mIntent = new Intent(MainActivity.this, Main2Activity.class);
+            mIntent.putExtra("nameKey", user.getText().toString());
+            mIntent.putExtra("emailKey", email.getText().toString());
+            Log.d("xd",contadores.get(0).toString());
+            mIntent.putExtra("totalKey", Integer.toString(contadores.get(0)));
+            mIntent.putExtra("prod1Key", Integer.toString(contadores.get(0)));
+            mIntent.putExtra("prod1Key", Integer.toString(contadores.get(0)));
             /*mIntent.putExtra(AppConstants.USER_KEY, user);
             mIntent.putExtra(AppConstants.PASSWORD_KEY, pass);
             mIntent.putExtra(AppConstants.EMAIL_KEY, email);
