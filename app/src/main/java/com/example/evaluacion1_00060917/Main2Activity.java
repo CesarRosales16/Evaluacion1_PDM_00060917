@@ -3,10 +3,13 @@ package com.example.evaluacion1_00060917;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
     private TextView tv_user,tv_email,tv_total,num_prod1,num_prod2,num_prod3,num_prod4,num_prod5,num_prod6,num_prod7,num_prod8,num_prod9;
+    private Button btn_share;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         num_prod7 = findViewById(R.id.cont_prod7);
         num_prod8 = findViewById(R.id.cont_prod8);
         num_prod9 = findViewById(R.id.cont_prod9);
+        btn_share = findViewById(R.id.btn_share);
         Intent mIntent = getIntent();
         if (mIntent != null) {
             tv_user.setText(mIntent.getStringExtra("nameKey"));
@@ -39,5 +43,8 @@ public class Main2Activity extends AppCompatActivity {
             num_prod9.setText(mIntent.getStringExtra("prod9Key"));
 
         }
+        btn_share.setOnClickListener(v ->{
+            Log.d("xd","click share");
+        });
     }
 }
