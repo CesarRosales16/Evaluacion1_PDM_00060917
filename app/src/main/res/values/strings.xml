@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Evaluacion1_00060917</string>
+    <string name="text_contador_de_productos">Contador de Productos</string>
+    <string name="text_usuario">Usuario</string>
+    <string name="hint_usuario">Escriba el usuario aqui</string>
+    <string name="text_correo_electronio">Correo electronio</string>
+    <string name="text_btn_enviar">ENVIAR</string>
+    <string name="text_btn_share">Share</string>
+</resources>
